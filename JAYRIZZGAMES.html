@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Games Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #1e1e2f;
+      color: white;
+    }
+
+    header {
+      background-color: #12122b;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+    }
+
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .game-card {
+      background-color: #2d2d44;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+
+    .game-card iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .game-title {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+
+    a {
+      color: #88ccff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>jayrizz games</header>
+
+  <div class="games-grid">
+    <div class="game-card">
+      <iframe src="https://agame.fun/P/homeIndex/a game.fun"></iframe>
+      <div class="game-title">a game.fun</div>
+    </div>
+
+    <div class="game-card">
+      <iframe src="https://szvy.googleclassroom.latinliturgy.com/"></iframe>
+      <div class="game-title">szvy central</div>
+    </div>
+
+    <div class="game-card">
+      <iframe src="https://meximathurbanned.global.ssl.fastly.net//game3"></iframe>
+      <div class="game-title">frogies arcade</div>
+    </div>
+  </div>
+</body>
+</html>
